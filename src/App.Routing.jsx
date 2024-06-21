@@ -4,7 +4,7 @@ import Hire from "./component/Hire/Hire.component";
 
 const AppRouting = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Routes>
         <Route path="/" element={<NewComponent />} />
         <Route path="/home" element={<NewComponent />} />
